@@ -1,13 +1,13 @@
 ﻿# Minh Đăng - 521H0497
 1. Trang chủ của web
+![image](https://user-images.githubusercontent.com/75245145/220393674-f077ae81-c2fb-4a2f-89d8-f376c338160d.png)
 
-![image](https://user-images.githubusercontent.com/75245145/220393569-6244578f-d527-4c7b-8c00-02927d723699.png)
 
 
 Khi vừa bắt đầu chạy chương trình, trang chủ sẽ như trên
 Để thêm 1 sinh viên vào danh sách ta bấm vào "Add student"
 
-![image](https://user-images.githubusercontent.com/75245145/220393674-f077ae81-c2fb-4a2f-89d8-f376c338160d.png)
+![image](https://user-images.githubusercontent.com/75245145/220393569-6244578f-d527-4c7b-8c00-02927d723699.png)
 
 
 Giao diện của page thêm 1 sinh viên vào danh sách
