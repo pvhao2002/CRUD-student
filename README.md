@@ -38,8 +38,11 @@ Ta sửa xong thông tin, rồi bấm Edit student. Chương trình sẽ sửa t
 
 Kết quả:
 
+![image](https://user-images.githubusercontent.com/75245145/220394908-8bd86a11-8af1-408c-a8f2-f67ab802d2bd.png)
 
 Nếu bấm vào biểu tượng delete thì chương trình sẽ hỏi có muốn xóa sinh viên này ko?
-![image](https://user-images.githubusercontent.com/75245145/220394908-8bd86a11-8af1-408c-a8f2-f67ab802d2bd.png)
+
+![image](https://user-images.githubusercontent.com/75245145/220396160-e07a3be9-f1c7-4d42-817a-68f78828a8a0.png)
+
 
 
