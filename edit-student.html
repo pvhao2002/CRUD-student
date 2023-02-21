@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/add-student.css">
+    <title>Midterm Project</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Header -->
+        <header>
+            <div class="inner-header container">
+                <a href="./index.html" id="logo">MINHDANG</a>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./add-student.html">Add Student</a></li>
+                        <li><a href="./about.html">521H0497</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Banner Image -->
+        <div id="banner"></div>
+        <!-- End Banner -->
+        <div id="message"></div>
+        <section id="content" class="container">
+            <form>
+                <h1>Form Sửa thông tin sinh viên</h1>
+                <p>Xin hãy nhập biểu mẫu bên dưới để sửa thông tin của sinh viên.</p>
+                <hr>
+                <label for="name"><b>Full Name</b></label>
+                <input type="text" placeholder="Type your full name" name="fullName" required>
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Type your email" name="email" required>
+                <label for="GPA"><b>GPA</b></label>
+                <input type="number" value="1" min="0" max="4" step="0.01" name="gpa" required>
+
+                <div class="clearfix">
+                    <button type="submit" class="btnAdd">Edit student</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div id="current-time"></div>
+            <p>&copy; 2023 @MinhDang - 521H0497</p>
+        </footer>
+        <!-- End footer -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/edit_student.js"></script>
+</body>
+
+</html>

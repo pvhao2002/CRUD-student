@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Midterm Project</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Header -->
+        <header>
+            <div class="inner-header container">
+                <a href="./index.html" id="logo">MINHDANG</a>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./add-student.html">Add Student</a></li>
+                        <li><a href="./about.html">About Project</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Banner Image -->
+        <div id="banner"></div>
+        <!-- End Banner -->
+
+        <!-- Form student information -->
+        <section id="content" class="container">
+            <h2>list student information</h2>
+            <table border=" 1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>GPA</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </section>
+        <!-- End form student information -->
+
+        <!-- Footer -->
+        <footer>
+            <div id="current-time"></div>
+            <p>&copy; 2023 @MinhDang - 521H0497</p>
+        </footer>
+        <!-- End footer -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- <script src="./js/add_student.js"></script> -->
+</body>
+
+</html>
