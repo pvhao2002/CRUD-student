@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "hao",
+            "group": "hao",
+            "database": "hao",
+            "username": "sa",
+            "password": "12345"
+        }
+    ]
+}
